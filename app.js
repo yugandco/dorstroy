@@ -48,5 +48,5 @@ app.get('/contacts', (req, res) => {
 });
 
 // SERVER RUNNING
-const PORT = 9999;
+const PORT = 80;
 app.listen(PORT, () => console.log(`Server runned ${PORT}`));
