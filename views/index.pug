@@ -1,0 +1,84 @@
+extends layout
+
+block content
+    section.section-1.container
+        .video-wrap
+            video(src="https://res.cloudinary.com/yugandco/video/upload/v1584172672/video_2.mp4", autoplay, loop, muted)
+        .section-overlay
+        .section-content
+            h1 Challenge. Creativity. Beyond.
+            p We're building future
+    section.section-2
+        .container
+            .row
+                .col-10.offset-1.shadow.mt-5(style="background: white")
+                    .row
+                        .col-12.pl-5.pt-3
+                            h3.border-bottom(style='font-size: 2.5em;') About us
+                        .col-12.pl-5.pt-3
+                            .row
+                                .col-6(style='font-size: 1.4em;')
+                                    p 
+                                        b DorStroy Holding 
+                                        span is successfully developing in the field of construction of cultural structures, in the field of design of exhibition complexes and in conducting large -scale events. 
+                                .col-6
+                                    img.img-fluid(src="/assets/img/aboutus.png", alt="")
+                        .col-12.pl-5.pb-4
+                            a(style='border-bottom: 1px solid black; text-decoration:  none;color: black;font-size: 1.3em;',href='/about') Read more
+                //- Development
+                .col-10.offset-1.shadow.mt-5(style="background: white")
+                    .row
+                        .col-12.pl-5.pt-3
+                            h3.border-bottom(style='font-size: 2.5em;') Development
+                        .col-12.pl-5.pt-3
+                            .row
+                                .col-6(style='font-size: 1.4em;')
+                                    p We’re developed and installed National museum contents,and successfully implemented Thematic pavilions, the Pavilion of the Republic of Korea and the International Pavilions 6 plaza.
+                                .col-6
+                                    img.img-fluid(src="/assets/img/expo.png", alt="")
+                        .col-12.pl-5.pb-4
+                            a(style='border-bottom: 1px solid black; color: black;font-size: 1.3em; text-decoration: none',href='/development') Read more
+                //- Design
+                .col-10.offset-1.shadow.mt-5(style="background: white")
+                    .row
+                        .col-12.pl-5.pt-3
+                            h3.border-bottom(style='font-size: 2.5em;') Design
+                        .col-12.pl-5.pt-3
+                            .row
+                                .col-6(style='font-size: 1.4em;')
+                                    p DorStroy Holding has experience in creating venues for EXPO exhibitions and major international events of world level ​with the latest know-how and cooperation of experts in different areas.​ We work «Turnkey» - from design to management.
+                                .col-6
+                                    img.img-fluid(src="/assets/img/first.png", alt="")
+                        .col-12.pl-5.pb-4
+                            a(style='border-bottom: 1px solid black; color: black;font-size: 1.3em; text-decoration: none',href='/development') Read more
+                //- Events
+                .col-10.offset-1.shadow.mt-5.mb-5(style="background: white")
+                    .row
+                        .col-12.pl-5.pt-3
+                            h3.border-bottom(style='font-size: 2.5em;') Events
+                        .col-12.pl-5.pt-3
+                            .row
+                                .col-6(style='font-size: 1.4em;')
+                                    p DorStroy Holding has experience in providing big events, such like Technical session Latin America in during Astana Expo 2017 and etc.
+                                .col-6
+                                    img.img-fluid(src="/assets/img/events2.png", alt="")
+                        .col-12.pl-5.pb-4
+                            a(style='border-bottom: 1px solid black; color: black;font-size: 1.3em; text-decoration: none',href='/development') Read more
+    section.section-3(style='width: 100%; height: 15vh; background: #1f1e33')
+            .container
+                .row
+                    .col-10.offset-1.mt-4
+                        .nav.align-items-center.justify-content-center
+                            a.nav-link.active.text-white(style='font-size: 1.8em',href='/') DorStroy Holding
+                            a.nav-link.text-white(href='/') Home
+                            a.nav-link.text-white(href='/development') Development
+                            a.nav-link.text-white(href='/design') Design
+                            a.nav-link.text-white(href='/events') Events
+                            a.nav-link.text-white(href='/about') About us
+                            a.nav-link.text-white(href='/contacts') Contacts
+    section.section-4(style='width: 100%; height: 5vh; background: rgba(0,0,0,1)')
+        .container.d-flex.justify-content-center.pt-1.text-white.text-muted
+            h5 Made by YUG. &copy All right reserverd. 2020.
+
+    
+    

@@ -1,0 +1,16 @@
+{
+  "name": "dorstroy",
+  "version": "0.0.1",
+  "description": "Simple Web App",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "YUG",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4"
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title DorStroy Holding
+        link(href="https://fonts.googleapis.com/css?family=Montserrat:300,400&PT+Serif&display=swap", rel="stylesheet")
+        link(rel="stylesheet", href="/assets/css/style.css")
+        link(rel='stylesheet', href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh', crossorigin='anonymous')
+        script(src="/assets/js/main.js")
+    body
+        header(style='height: 10vh; width: 100%;display: flex; justify-content: center; align-items: center')
+                .menu-block(style='height: 8vh; width: 70vw; display: flex; flex-direction: row; align-items: center; font-family: "Montserrat", san-serif')
+                    .menu-brand(style="width: 20%;height: 100%; display: flex; justify-content: center; align-items: center;font-size: 1.4em; padding: 3vh; background-color: #fff")
+                        img(style='margin-left: -10px',src='/assets/img/logo.png', height='55', width='60')
+                        a.brand-item(style='text-align: center; text-decoration: none; color: #1f1e33; margin-left: 0px' ,href='/') Dorstroy Holding
+                    .menu-item
+                        a.item(href='/') Home
+                        a.item(href='/development') Development
+                        a.item(href='/design') Design
+                        a.item(href='/events') Events
+                        a.item(href='/aboutus') About us
+                        a.item(href='/contacts') Contacts
+        block content
+
+        script(src='https://code.jquery.com/jquery-3.4.1.slim.min.js', integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n', crossorigin='anonymous')
+        script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo', crossorigin='anonymous')
+        script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6', crossorigin='anonymous')
